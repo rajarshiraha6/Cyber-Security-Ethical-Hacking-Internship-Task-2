@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Tue Oct 14 09:37:25 2025 as: /usr/lib/nmap/nmap -Pn -sS -p 22,80 --reason -v -oN nmap_debug_22_80.txt 192.168.56.101
+Nmap scan report for 192.168.56.101
+Host is up, received user-set (0.000055s latency).
+
+PORT   STATE  SERVICE REASON
+22/tcp closed ssh     reset ttl 64
+80/tcp closed http    reset ttl 64
+
+Read data files from: /usr/share/nmap
+# Nmap done at Tue Oct 14 09:37:26 2025 -- 1 IP address (1 host up) scanned in 0.62 seconds
