@@ -19,5 +19,6 @@ Port & Service Scanning (Nmap)
 Commands used:
 
 nmap -T4 -F <target-ip> -oN nmap_quick.txt
+
 sudo nmap -sS -sV -O --script vuln <target-ip> -oN nmap_full.txt
 
